@@ -1,0 +1,53 @@
+MetaDataFormat = "toml"
+publishdir = "../larsth.github.io"
+baseurl = "http://www.larsth.dk"
+languageCode = "da-DK"
+title = "Lars Tørnes Hansen | Blog"
+#under titel="Blog om IT, Teknik og Naturvidenskab"
+#
+theme = "hyde-x"
+paginate = 10
+
+[author]
+    name = "Lars Tørnes Hansen"
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+
+[indexes]
+    category = "kategorier"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # Used when a given page doesn't set its own.
+    defaultDescription = "Lars Tørnes Hansen | Blog"
+    defaultKeywords = "blog, Linux, software"
+
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-0d"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "sunburst"
+
+    # Displays under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+    tagline = "Blog om IT, Teknik og Naturvidenskab"
+
+    # Metadata used to drive integrations.
+    #googleAuthorship = "Your Google+ profile ID"
+    googleAuthorship = "110410393931214784146"
+    #googleAnalytics = "Your Google Analytics tracking code"
+    #gravatarHash = "MD5 hash of your Gravatar email address"
+
+    # Sidebar social links, these must be full URLs.
+    github = "https://github.com/larsth/"
+    #bitbucket = ""
+    #linkedin = ""
+    googleplus = "https://plus.google.com/110410393931214784146/posts"
+    #facebook = ""
+    twitter = "https://twitter.com/LarsTHansen"
