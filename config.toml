@@ -1,29 +1,30 @@
 MetaDataFormat = "toml"
-publishdir = "../larsth.github.io"
-baseurl = "http://www.larsth.dk"
+publishdir = "../temp_larsth.github.io"
+baseurl = "http://www.larsth.dk/"
 languageCode = "da-DK"
 title = "Lars Tørnes Hansen | Blog"
-#under titel="Blog om IT, Teknik og Naturvidenskab"
 #
-theme = "hyde-x"
+#theme = "hyde-x"
+theme = "vienna"
 paginate = 10
+# Copyright notice. This is displayer in the footer.
+copyright = "Copyright &copy; 2015 Lars Tørnes Hansen"
 
 [author]
     name = "Lars Tørnes Hansen"
 
-[permalinks]
-    post = "/:year/:month/:day/:title/"
+#[permalinks]
+#    post = "/:year/:month/:day/:title/"
 
 [indexes]
     category = "kategorier"
 
 #
 # All parameters below here are optional and can be mixed and matched.
-#
+# (BEGIN: vienna theme params)
 [params]
     # Used when a given page doesn't set its own.
-    defaultDescription = "Lars Tørnes Hansen | Blog"
-    defaultKeywords = "blog, Linux, software"
+    subtitle = "Blog om IT, Teknik og Naturvidenskab"
 
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
@@ -34,10 +35,6 @@ paginate = 10
     # Check the static/css/highlight directory for options.
     highlight = "sunburst"
 
-    # Displays under the author name in the sidebar, keep it short.
-    # You can use markdown here.
-    tagline = "Blog om IT, Teknik og Naturvidenskab"
-
     # Metadata used to drive integrations.
     #googleAuthorship = "Your Google+ profile ID"
     googleAuthorship = "110410393931214784146"
@@ -45,9 +42,11 @@ paginate = 10
     #gravatarHash = "MD5 hash of your Gravatar email address"
 
     # Sidebar social links, these must be full URLs.
-    github = "https://github.com/larsth/"
+    github = "larsth"
     #bitbucket = ""
     #linkedin = ""
     googleplus = "https://plus.google.com/110410393931214784146/posts"
     #facebook = ""
-    twitter = "https://twitter.com/LarsTHansen"
+    twitter = "LarsTHansen"
+    
+    # (END: vienna theme params)
