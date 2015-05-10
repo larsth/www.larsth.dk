@@ -1,5 +1,5 @@
 # www.larsth.dk
-Repository `larsth/www.larsth.dk` contains the content to create the static website at: [http://www.larsth.dk](http://www.larsth.dk), which is a DNS CNAME (Canonical Name record or an alias) for [http://github.com/larsth.github.io/](http://github.com/larsth.github.io/).
+Repository `larsth/www.larsth.dk` contains the content to create the static website at: [http://www.larsth.dk](http://www.larsth.dk), which is a DNS CNAME (Canonical Name record or an alias) for [http://larsth.github.io/](http://larsth.github.io/), which lives in the git repository at: [http://github.com/larsth/larsth.github.io/](http://github.com/larsth/larsth.github.io/)
 
 You are welcome to be inspired by the code in this repository - the license is the MIT license, read the LICENSE file.
 
