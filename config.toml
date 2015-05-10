@@ -3,6 +3,9 @@ publishdir = "../temp_larsth.github.io"
 baseurl = "http://www.larsth.dk/"
 languageCode = "da-DK"
 title = "Lars Tørnes Hansen | Blog"
+
+canonifyurls = true
+
 #
 #theme = "hyde-x"
 theme = "vienna"
@@ -13,8 +16,8 @@ copyright = "Copyright &copy; 2015 Lars Tørnes Hansen"
 [author]
     name = "Lars Tørnes Hansen"
 
-#[permalinks]
-#    post = "/:year/:month/:day/:title/"
+[permalinks]
+    post = "/:year/:month/:day/:filename/"
 
 [indexes]
     category = "kategorier"
